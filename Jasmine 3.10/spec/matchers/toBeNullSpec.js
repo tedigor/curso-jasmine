@@ -5,6 +5,7 @@ describe("Teste do toBeNull", function(){
         var n3;
         var n4 = NaN;
         var n5 = "Teste";
+        var n6 = "Helder";
 
         expect(n1).toBeNull();
         
@@ -12,5 +13,6 @@ describe("Teste do toBeNull", function(){
         expect(n3).not.toBeNull();
         expect(n4).not.toBeNull();
         expect(n5).not.toBeNull();
+        expect(n6).not.toBeNull();
     });
 });
